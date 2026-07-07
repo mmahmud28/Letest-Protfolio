@@ -6,6 +6,10 @@ import {
   FaNodeJs,
   FaJava,
   FaGithub,
+  FaRobot,
+  FaNetworkWired,
+  FaShieldAlt,
+  FaAmazon,
 } from "react-icons/fa";
 import {
   SiTailwindcss,
@@ -14,8 +18,17 @@ import {
   SiMongodb,
   SiMysql,
   SiExpress,
+  SiMongoose,
+  SiTypescript,
+  SiSqlite,
+  SiPhp,
+  SiJson,
+  SiXml,
+  SiFirebase,
+  SiDaisyui,
 } from "react-icons/si";
 import { HiDownload, HiArrowRight } from "react-icons/hi";
+import { TbApi, TbBrandAuth0, TbLayoutDashboard } from "react-icons/tb";
 
 const Resume = () => {
   const technologies = [
@@ -78,6 +91,86 @@ const Resume = () => {
       name: "GitHub",
       icon: <FaGithub />,
       style: "from-slate-800 to-slate-950",
+    },
+    {
+      name: "SQLite",
+      icon: <SiSqlite />,
+      style: "from-blue-500 to-slate-700",
+    },
+    {
+      name: "PHP",
+      icon: <SiPhp />,
+      style: "from-indigo-500 to-purple-700",
+    },
+    {
+      name: "JSON",
+      icon: <SiJson />,
+      style: "from-yellow-400 to-orange-500",
+    },
+    {
+      name: "XML",
+      icon: <SiXml />,
+      style: "from-orange-500 to-red-600",
+    },
+    {
+      name: "AWS",
+      icon: <FaAmazon />,
+      style: "from-orange-400 to-yellow-600",
+    },
+    {
+      name: "BetterAuth",
+      icon: <TbBrandAuth0 />,
+      style: "from-violet-500 to-purple-700",
+    },
+    {
+      name: "TypeScript",
+      icon: <SiTypescript />,
+      style: "from-blue-500 to-sky-700",
+    },
+    {
+      name: "Mongoose",
+      icon: <SiMongoose />,
+      style: "from-red-500 to-rose-700",
+    },
+    {
+      name: "REST API",
+      icon: <TbApi />,
+      style: "from-emerald-500 to-teal-700",
+    },
+    {
+      name: "JWT Security",
+      icon: <FaShieldAlt />,
+      style: "from-green-500 to-emerald-700",
+    },
+    {
+      name: "Cursor AI",
+      icon: <FaRobot />,
+      style: "from-slate-700 to-black",
+    },
+    {
+      name: "Bolt",
+      icon: <FaNetworkWired />,
+      style: "from-yellow-500 to-amber-700",
+    },
+    {
+      name: "V0",
+      icon: <FaRobot />,
+      style: "from-zinc-600 to-neutral-950",
+    },
+    {
+      name: "Firebase",
+      icon: <SiFirebase />,
+      style: "from-yellow-400 to-orange-500",
+    },
+    {
+      name: "HeroUI",
+      icon: <TbLayoutDashboard />,
+      style: "from-cyan-500 to-blue-600",
+    },
+    {
+      name: "DaisyUI",
+      icon: <SiDaisyui />,
+      style: "from-pink-500 to-fuchsia-600",
     },
   ];
 

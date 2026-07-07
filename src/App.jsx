@@ -7,6 +7,7 @@ import Resume from './component/Resume'
 import Social from './component/Social'
 import App_project from './component/App_Project'
 import Web_project from './component/Web_project'
+import Manage_Website from './component/Manage_Website'
 
 function App() {
   
@@ -38,6 +39,11 @@ function App() {
 
         <section id = "project">
           <Web_project/>
+       </section>
+
+
+       <section id = "footer">
+        <Manage_Website/>
        </section>
 
       <Footer/>
