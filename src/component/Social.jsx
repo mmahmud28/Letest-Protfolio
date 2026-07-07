@@ -11,7 +11,7 @@ const Social = () => {
     {
       name: "Facebook",
       icon: <FaFacebookF />,
-      link: "https://facebook.com/",
+      link: "https://web.facebook.com/mmahmud28",
       color: "from-blue-500 to-blue-700",
       shadow: "hover:shadow-blue-500/40",
       text: "Connect on Facebook",
@@ -19,7 +19,7 @@ const Social = () => {
     {
       name: "LinkedIn",
       icon: <FaLinkedinIn />,
-      link: "https://linkedin.com/",
+      link: "https://www.linkedin.com/in/md-mahmud28",
       color: "from-sky-500 to-blue-600",
       shadow: "hover:shadow-sky-500/40",
       text: "Professional Profile",
@@ -27,7 +27,7 @@ const Social = () => {
     {
       name: "GitHub",
       icon: <FaGithub />,
-      link: "https://github.com/",
+      link: "https://github.com/mmahmud28",
       color: "from-slate-700 to-black",
       shadow: "hover:shadow-slate-500/40",
       text: "View My Codes",

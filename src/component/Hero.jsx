@@ -1,20 +1,44 @@
 import { useEffect, useState } from "react";
 import { FaCode, FaMobileAlt } from "react-icons/fa";
 
+const SkillBadge = ({ className, skill }) => {
+  return (
+    <div
+      className={`
+        absolute z-30
+        min-w-[88px] sm:min-w-[110px] lg:min-w-[125px]
+        px-3 sm:px-4 py-2 sm:py-3
+        rounded-2xl
+        bg-white/90 dark:bg-slate-950/90
+        backdrop-blur-xl
+        border border-black/10 dark:border-white/10
+        shadow-[0_10px_35px_rgba(15,23,42,0.18)]
+        dark:shadow-[0_10px_35px_rgba(0,0,0,0.45)]
+        text-center
+        ${className}
+      `}
+    >
+      <p className="text-xs sm:text-sm lg:text-base font-black bg-gradient-to-r from-cyan-500 via-blue-600 to-purple-600 bg-clip-text text-transparent">
+        {skill}
+      </p>
+    </div>
+  );
+};
+
 const Hero = () => {
   const skills = [
     "HTML",
     "CSS",
     "Tailwind CSS",
-    "JavaScript",
-    "Vite",
+    "JavaScript",    
     "React",
     "Node.js",
     "Java",
-    "App",
-    "Web",
     "SQL",
     "MongoDB",
+    "Git",
+    "Firebase",
+    "Express Js",
   ];
 
   const [skillIndex, setSkillIndex] = useState(0);
@@ -29,30 +53,6 @@ const Hero = () => {
 
   const getSkill = (offset) => {
     return skills[(skillIndex + offset) % skills.length];
-  };
-
-  const SkillBadge = ({ className, skill }) => {
-    return (
-      <div
-        className={`
-          absolute z-30
-          min-w-[88px] sm:min-w-[110px] lg:min-w-[125px]
-          px-3 sm:px-4 py-2 sm:py-3
-          rounded-2xl
-          bg-white/90 dark:bg-slate-950/90
-          backdrop-blur-xl
-          border border-black/10 dark:border-white/10
-          shadow-[0_10px_35px_rgba(15,23,42,0.18)]
-          dark:shadow-[0_10px_35px_rgba(0,0,0,0.45)]
-          text-center
-          ${className}
-        `}
-      >
-        <p className="text-xs sm:text-sm lg:text-base font-black bg-gradient-to-r from-cyan-500 via-blue-600 to-purple-600 bg-clip-text text-transparent">
-          {skill}
-        </p>
-      </div>
-    );
   };
 
   return (
@@ -225,7 +225,7 @@ const Hero = () => {
                   "
                 >
                   <img
-                    src="/src/assets/MMahmud.png"
+                    src="/Mahmud.png"
                     alt="Mahmud"
                     className="
                       h-full w-full object-cover

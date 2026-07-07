@@ -1,31 +1,30 @@
-import React from "react";
 import { FaSchool, FaGraduationCap, FaBookOpen } from "react-icons/fa";
 import { HiAcademicCap } from "react-icons/hi";
 
 const Education = () => {
   const educationData = [
     {
-      title: "JSC",
-      subtitle: "Junior School Certificate",
+      title: "Digital Marketing",
+      subtitle: "Completed Many Online Courses",
       icon: <FaSchool />,
       description:
-        "Completed my junior level education and built a strong basic academic foundation.",
+        "I have completed several online courses in digital marketing, which have equipped me with the knowledge and skills to effectively promote products and services in the digital space.",
       gradient: "from-cyan-500 to-blue-600",
     },
     {
-      title: "SSC",
-      subtitle: "Secondary School Certificate",
+      title: "Mobile Apps Development",
+      subtitle: "Bongo Academy",
       icon: <FaBookOpen />,
       description:
-        "Completed secondary education with focus on discipline, learning, and personal growth.",
+        "Bongo Academy provided me with practical knowledge and skills in app development, enhancing my technical expertise.",
       gradient: "from-purple-500 to-pink-600",
     },
     {
-      title: "HSC",
-      subtitle: "Higher Secondary Certificate",
+      title: "Web Application Development",
+      subtitle: "Programming Hero",
       icon: <FaGraduationCap />,
       description:
-        "Completed higher secondary education and continued improving my knowledge and skills.",
+        "Programming Hero helped me gain in-depth knowledge of web development, enabling me to create dynamic and responsive web applications.",
       gradient: "from-emerald-500 to-cyan-600",
     },
   ];
