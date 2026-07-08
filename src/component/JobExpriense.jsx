@@ -1,4 +1,3 @@
-import React from "react";
 import { FaHospital, FaLaptopCode, FaBuilding, FaExternalLinkAlt } from "react-icons/fa";
 
 const experiences = [
@@ -8,7 +7,7 @@ const experiences = [
     role: "Receptionist",
     type: "Healthcare Service",
     website: "https://bangladeshcityhospital.com/",
-    image: "/images/jobs/bch-banner.png",
+    image: "/bch.png",
     icon: <FaHospital />,
     summary:
       "Managed front-desk operations, patient communication, appointment support, and professional customer service in a busy hospital environment.",
@@ -19,7 +18,7 @@ const experiences = [
     role: "Junior Software Engineer",
     type: "Healthcare Technology",
     website: "https://www.teleradbangladesh.com/",
-    image: "/images/jobs/telerad-banner.png",
+    image: "/telerad.png",
     icon: <FaLaptopCode />,
     summary:
       "Worked as a Junior Software Engineer, contributing to software solutions, technical support, system improvement, and real-world development workflow.",
@@ -30,7 +29,7 @@ const experiences = [
     role: "Computer Operator & Software Developer Engineer",
     type: "Real Estate & Software Development",
     website: "https://iconicbd.net/",
-    image: "/images/jobs/iconic-banner.png",
+    image: "/iconic.png",
     icon: <FaBuilding />,
     summary:
       "Working with ISDL as a Computer Operator and Software Developer Engineer, supporting digital operations, software systems, website management, and business technology solutions.",
