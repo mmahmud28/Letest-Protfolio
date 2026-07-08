@@ -8,7 +8,7 @@ const managedWebsites = [
     description:
       "I manage this academy website, focusing on smooth user experience, content updates, performance, and website maintenance.",
     image:
-      "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=1200&auto=format&fit=crop",
+      "/autopayment_shtacademy_portfolio_banner.png",
   },
   {
     name: "Iconic BD",
@@ -17,7 +17,7 @@ const managedWebsites = [
     description:
       "I handle website management, technical updates, page maintenance, and overall digital presence for this platform.",
     image:
-      "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1200&auto=format&fit=crop",
+      "/iconicbd_portfolio_banner.png",
   },
   {
     name: "MM Software",
@@ -26,7 +26,7 @@ const managedWebsites = [
     description:
       "I manage this software-related website with attention to service presentation, frontend quality, and technical consistency.",
     image:
-      "https://images.unsplash.com/photo-1551434678-e076c223a692?w=1200&auto=format&fit=crop",
+      "/mmsoftware_portfolio_banner.png",
   },
   {
     name: "Rupali Shop",
@@ -35,7 +35,7 @@ const managedWebsites = [
     description:
       "I manage this online shop website, including product presentation, website updates, and user-friendly shopping experience.",
     image:
-      "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=1200&auto=format&fit=crop",
+      "/rupali_shop_portfolio_banner.png",
   },
 ];
 
@@ -68,7 +68,7 @@ const Manage_Website = () => {
               key={index}
               className="group rounded-[2rem] overflow-hidden bg-white dark:bg-white/5 border border-black/10 dark:border-white/10 shadow-xl hover:shadow-2xl transition-all duration-500 hover:-translate-y-2"
             >
-              <div className="relative h-120 overflow-hidden">
+              <div className="relative overflow-hidden">
                 <img
                   src={site.image}
                   alt={site.name}
