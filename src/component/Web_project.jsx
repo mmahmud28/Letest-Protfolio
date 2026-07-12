@@ -28,7 +28,7 @@ const Web_project = () => {
         {
             id: 3,
             name: "Books Library Website",
-            image: "/book.png",
+            image: "/books.png",
             description:
                 "A useful task management web app where users can add, update, delete, and organize daily tasks easily.",
             stack: ["React", "Tailwind CSS", "Firebase"],
@@ -83,7 +83,7 @@ const Web_project = () => {
         {
             id: 8,
             name: "Meal Booking Website",
-            image: "/male.png",
+            image: "/meal.png",
             description:
                 "A full-stack e-commerce website where users can browse products, view details, and enjoy a smooth shopping experience.",
             stack: ["React", "Node.js", "Express", "MongoDB"],

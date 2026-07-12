@@ -116,8 +116,9 @@ const Hero = () => {
               </h1>
 
               <h2 className="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-slate-700 dark:text-white/90">
-                Apps & Web Developer
+                Apps & Web Application Developer
               </h2>
+              // Noted
 
               <p className="max-w-2xl mx-auto lg:mx-0 text-base sm:text-lg text-slate-600 dark:text-white/70 leading-relaxed">
                 I build modern, responsive, and user-friendly web and app
